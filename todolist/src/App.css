@@ -1,0 +1,94 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+   text-align: center;
+  justify-content: center;
+}
+.create_form input {
+  width: 300px;
+  padding: 10px;
+  border-bottom: 2px solid gray;
+  margin: 10px;
+  outline: none;
+}
+
+.create_form button{
+  border:white;
+  padding: 10px 20px;
+  background-color:rgb(21, 36, 36);
+  color:white;
+  cursor:pointer;
+  width: 50%;
+  border-radius: 5px;
+  margin-left:10px;
+  margin-bottom: 20px;
+}
+
+.task{
+  
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(194, 180, 180);
+  color: rgb(25, 17, 79);
+   padding: 10px;
+  border-radius:5px;
+}
+.todotask{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(173, 166, 178);
+  padding: 10px 20px;
+  border: solid rgb(8, 8, 8) 1px;
+  margin: 1px;
+  border-radius:5px;
+}
+
+.todolist
+{
+  margin-top: 10px;
+  border: solid rgb(8, 8, 8) 1px;
+  background-color: rgb(102, 102, 162);
+  border-radius:5px;
+  padding:10px;
+}
+
+.checkbox{
+  display: flex;
+  align-items: center;
+}
+.delete{
+  align-items: center;
+  cursor :pointer;
+
+}
+
+.checkbox .icon{
+  margin-right: 5px;
+  font-size: 15px;
+}
+.line_through{
+  text-decoration: line-through;
+  color: rgb(0, 0, 0);
+}
+
+.task div span{
+  margin:0px 5px 0px 4px;
+}
+
+.task div .icon{
+  cursor :pointer;
+}
+
+.delete .icon{
+  color:rgb(0, 0, 0);
+  margin-left:90%;
+
+}
